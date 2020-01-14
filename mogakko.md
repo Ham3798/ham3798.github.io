@@ -5,5 +5,6 @@
 
 ```markdown
 오늘의 목표
-# android studio 공부.
-## 내 블로그 꾸미기.
+1. android studio 공부.
+2. 내 블로그 꾸미기.
+```
