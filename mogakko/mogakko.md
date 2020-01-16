@@ -15,7 +15,7 @@ android studio
 ```
 
 1. 리스트 뷰
-![리스트뷰](./mogakko/1.png)
+![1](./mogakko/1.png)
 
 ```markdown
 
