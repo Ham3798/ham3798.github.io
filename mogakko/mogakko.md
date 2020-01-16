@@ -2,7 +2,6 @@
 
 오늘은 첫 번째 모각코 모임을 가졌습니다.
 같이 주니어 소프트웨어 대회를 참가하기 때문에 이를 만들기 위한 사전 지식을 쌓는 시간을 각자 갖기로 했습니다.
-https://www.inflearn.com/course/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0/lecture/5733
 인프런 강의를 통해 공부함.
 
 ```markdown
@@ -61,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
 일반적인 리스트뷰의 각각에 이미지를 추가하기 위해 ImageAdapter class를 만들어서 이미지를 넣은 리스트뷰의 레이아웃을 구성하고 이를 MainActivity class로 리스트뷰를 구성.
-
-
 2. 액티비티 화면 전환
