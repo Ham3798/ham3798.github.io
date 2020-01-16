@@ -15,7 +15,7 @@ android studio
 ```
 
 1. 리스트 뷰
--안드로이드 ListView ListView는 사용자가 정의한 데이터 목록을 아이템 단위로 구성하여 화면에 출력하는 ViewGroup의 한 종류
+- 안드로이드 ListView ListView는 사용자가 정의한 데이터 목록을 아이템 단위로 구성하여 화면에 출력하는 ViewGroup의 한 종류
 
 ![1](./mogakko/1.png)
 
