@@ -15,8 +15,10 @@ android studio
 ```
 
 1. 리스트 뷰
-![리스트뷰](.\mogakko\1.png)
+![리스트뷰](./mogakko/1.png)
+
 ```markdown
+
 public class ImageAdapter extends ArrayAdapter<String> {
     ImageAdapter(Context context, String[] items) {
         super(context, R.layout.image_layout, items);
