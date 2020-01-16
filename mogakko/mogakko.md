@@ -18,7 +18,6 @@ android studio
 ![1](./mogakko/1.png)
 
 ```markdown
-
 public class ImageAdapter extends ArrayAdapter<String> {
     ImageAdapter(Context context, String[] items) {
         super(context, R.layout.image_layout, items);
@@ -37,7 +36,8 @@ public class ImageAdapter extends ArrayAdapter<String> {
         return view;
     }
 }
-
+```
+```markdown
 public class MainActivity extends AppCompatActivity {
 
     @Override
