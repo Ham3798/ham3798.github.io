@@ -92,3 +92,41 @@ my sql과 php를 이용해서 만드는 것을 보고 이를 공부하기로 결
 
 비록 주니어 소프트웨어 대회 작품은 시간 관계상 포기하게 되었지만 작품은 혼자서 만들어 보려고 함.
 이를 위해서 오늘은 생활코딩 사이트에서 JavaScript 공부할 계획.
+
+JavaScript
+
+html에서 <script></script> 사이에 들어가는 코드를 자바스크립트로 인식함.
+document.write(1+1); 과 같이 스크립트 태그 안에 넣은 값에 대해 html과 다르게 끝에 세미콜론(;)을 붙여야 하고
+프로그래밍 언어와 같이 반복문이나 함수 등으로 다양한 효과를 넣을 수 있음.
+```markdown
+<script>
+  document.write(1<1);
+  if(1===1) {
+    document.write('123<br>');
+  } else {
+    document.write('123123<br>');
+  }
+</script>
+```
+와 같이 반복문, 조건문 등은 
+
+```markdown
+<input id="night_day" type="button" value="night" onclick="
+    if(document.querySelector('#night_day').value === 'night'){
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+      document.querySelector('#night_day').value = 'day';
+    } else {
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+      document.querySelector('#night_day').value = 'night';
+    }
+  ">
+```
+다음은 버튼을 누를 경우 html의 body태그를 감싸는 배경을 하얀색, 글씨를 검정색으로 바꾸는 버튼이다.
+type값에 따라 버튼 뿐만 아니라 text, passward 타입 등으로 아이디나 비밀번호, 기타 등을 입력받거나 입력할 수 있는 택스트 등을 만들 수 있다.
+또한 onclick과 같이 버튼을 눌렀을 경우, 텍스트에 숫자를 입력할 경우 등의 특정 조건에 따른 실행문을 작성할 수 있다.
+querySelector를 통해 특정 태그를 지정하여 css의 효과를 준다.
+
+
+# 모각코 4일차. 2020.01.30
