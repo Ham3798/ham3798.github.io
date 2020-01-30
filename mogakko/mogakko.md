@@ -100,26 +100,34 @@ document.write(1+1); 과 같이 스크립트 태그 안에 넣은 값에 대해 
 프로그래밍 언어와 같이 반복문이나 함수 등으로 다양한 효과를 넣을 수 있음.
 ```markdown
 <script>
-  document.write(1<1);
-  if(1===1) {
+  if(1===1) {   //조건문
     document.write('123<br>');
   } else {
     document.write('123123<br>');
   }
+
+  var arr = ["egoing", "asdf"]; //배열
+  arr.push('ad'); //배열 추가
+
+  var i = 0;
+  while(i<3) { //반복문
+
+  }
 </script>
 ```
-와 같이 반복문, 조건문 등은 
+와 같이 JavaScript의 반복문, 조건문, 배열은 다른 프로그래밍 언어와 매우 유사함.
 
 ```markdown
 <input id="night_day" type="button" value="night" onclick="
-    if(document.querySelector('#night_day').value === 'night'){
-      document.querySelector('body').style.backgroundColor = 'black';
-      document.querySelector('body').style.color = 'white';
-      document.querySelector('#night_day').value = 'day';
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
     } else {
-      document.querySelector('body').style.backgroundColor = 'white';
-      document.querySelector('body').style.color = 'black';
-      document.querySelector('#night_day').value = 'night';
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
     }
   ">
 ```
