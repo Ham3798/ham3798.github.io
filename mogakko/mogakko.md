@@ -139,6 +139,26 @@ querySelector를 통해 특정 태그를 지정하여 css의 효과를 준다.
 
 # 모각코 4일차. 2020.01.30
 Nodejs를 공부하고 mysql에 연동해서 회원가입 기능을 만드는 데에 이용할 계획이다.
+원래는 php를 해보려 했는데 javascript와 문법이 거의 동일한 nodejs가 더 배우기 쉬울 것 같아서 갈아탐.
+
+```markdown
+console.log('1'+'1');
+console.log('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'.length);
+```
+console.log(); 명령어를 통해 콘솔창에서 js파일을 실행시켰을 때 뜨도록 만들 수 있음.
+데이터 타입 중 number는 그냥 숫자로, String은 ''를 넣어서 문자로 구분함.
+
+```markdown
+var name = 'ham3798';
+var letter = 'Dear '+name+'\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+console.log(letter);
+
+var letter = `Dear ${name}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+console.log(letter);
+```
+비교적 최신의 기능인 Template Literal은 문자열의 표현이나 문자의 치환을 비교적 쉽게 할 수 있게 해줌. 둘의 실행결과가 같음.
 
 # 모각코 5일차. 2020.02.04
 
